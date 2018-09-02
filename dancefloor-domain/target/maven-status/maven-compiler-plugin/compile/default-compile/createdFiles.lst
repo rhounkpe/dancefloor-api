@@ -1,1 +1,3 @@
 dance/dancefloor/domain/App.class
+dance/dancefloor/domain/common/Thing.class
+dance/dancefloor/domain/event/Event.class
