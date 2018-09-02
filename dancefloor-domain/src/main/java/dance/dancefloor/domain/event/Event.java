@@ -1,5 +1,6 @@
 package dance.dancefloor.domain.event;
 
+import dance.dancefloor.domain.common.PostalAddress;
 import dance.dancefloor.domain.common.Thing;
 
 import java.time.LocalDate;
@@ -13,4 +14,6 @@ public abstract class Event extends Thing {
     private boolean isAccessibleForFree;
     private int maximumAttendeeCapacity;
     private String typicalAgeRange;
+
+    private PostalAddress venue;
 }
