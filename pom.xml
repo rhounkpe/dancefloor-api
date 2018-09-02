@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>dance.dancefloor</groupId>
+  <artifactId>dancefloor</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>dancefloor</name>
+  <url>http://www.dancefloor.dance</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies/>
+  <modules>
+    <module>dancefloor-domain</module>
+    <module>dancefloor-webapp</module>
+    <module>dancefloor-service</module>
+    <module>dancefloor-business</module>
+  </modules>
+
+  <!-- =============================================================================== -->
+  <!--                  Dependancies Management                                        -->
+  <!-- =============================================================================== -->
+  <dependencyManagement>
+    <dependencies>
+      <!-- ============== Modules ============= -->
+      <dependency>
+        <groupId>dance.dancefloor</groupId>
+        <artifactId>dancefloor-business</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>dance.dancefloor</groupId>
+        <artifactId>dancefloor-domain</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>dance.dancefloor</groupId>
+        <artifactId>dancefloor-service</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>dance.dancefloor</groupId>
+        <artifactId>dancefloor-webapp</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
