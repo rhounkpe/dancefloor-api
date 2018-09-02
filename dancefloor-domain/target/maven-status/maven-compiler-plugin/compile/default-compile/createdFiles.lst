@@ -1,3 +1,6 @@
 dance/dancefloor/domain/App.class
+dance/dancefloor/domain/common/EventStatusType.class
+dance/dancefloor/domain/organization/Organization.class
 dance/dancefloor/domain/common/Thing.class
+dance/dancefloor/domain/common/PostalAddress.class
 dance/dancefloor/domain/event/Event.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dance.dancefloor.business.AppTest" time="0.098" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dance.dancefloor.business.AppTest" time="0.116" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="BE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/surefire/surefirebooter6817268856576324077.jar /Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/surefire 2018-09-02T23-56-56_584-jvmRun1 surefire3170424760793052469tmp surefire_14295899936844711475tmp"/>
+    <property name="sun.java.command" value="/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/surefire/surefirebooter6559610671327638906.jar /Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/surefire 2018-09-03T00-17-40_943-jvmRun1 surefire7374977617162922038tmp surefire_15018569300761632782tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/test-classes:/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/classes:/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-service/target/dancefloor-service-1.0-SNAPSHOT.jar:/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-domain/target/dancefloor-domain-1.0-SNAPSHOT.jar:/Users/dev/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/dev/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/surefire/surefirebooter6817268856576324077.jar"/>
+    <property name="surefire.real.class.path" value="/Users/dev/Documents/DEV/danceFloor2018/workspace-maven-multi-tiers/dancefloor/dancefloor-business/target/surefire/surefirebooter6559610671327638906.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,5 +61,5 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="dance.dancefloor.business.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="dance.dancefloor.business.AppTest" time="0.002"/>
 </testsuite>
